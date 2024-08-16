@@ -5,6 +5,7 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
     /* font-family: 'Roboto'; */
 }
+
 .header{
     display: flex;
     flex-direction: row;
@@ -253,5 +254,36 @@ hr{
     display: flex;
     flex-direction: row;
     padding-left: 10px;
-    border: 2px solid rebeccapurple;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    border: none;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.sidebar_middle .item2 .item2_sub2 label{
+    padding-left: 20px;
+}
+.sidebar_middle .item2 .item3_sub2 label{
+    padding-left: 20px;
+}
+.sidebar_middle .item2 .item4_sub2 label{
+    padding-left: 20px;
+}
+.sidebar_middle .item2 .item5_sub2 label{
+    padding-left: 20px;
+}
+.sidebar_middle .item2 .item6_sub2 label{
+    padding-left: 20px;
+    /* border: 2px solid rgb(175, 81, 43); */
+}
+.sidebar_middle .item2 .item7_sub2 label{
+    padding-left: 20px;
+}
+.sidebar_middle .item2:hover{
+    background-color: rgb(197, 191, 191);
+    transition: 0.5s;
+    cursor: pointer;
+}
+#afas{
+    margin-bottom: 10px;
 }
