@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="nav_left">
+                <div class="menu">
+                    <a href="#"><img src="./asset/menu.png" class="menu_icon" onclick="show()" alt="" loading="lazy"></a>
+                </div>
+                <div class="logo">
+                    <a href="./index.html"><img src="./asset/logo (1).png" alt="" loading="lazy"></a>
+                </div>
+        </div>
+        <div class="nav_middle">
+            <div class="search_bar d-flex">
+                <input type="text" id="search_it" placeholder="Search" required >
+                <a href="#"><img src="./asset/search.png" alt="" class="sear" loading="lazy"></a>
+            </div>
+            <div class="voice">
+                <a href="#"><img src="./asset/voice-search.png" alt="" loading="lazy"></a>
+            </div>
+        </div>
+        <div class="nav_right">
+            <div class="uplord">
+                <a href="#"><img src="./asset/upload.png" alt="" loading="lazy"></a>
+            </div>
+            <div class="bell">
+                <a href="#"><img src="./asset/notification.png" alt="" loading="lazy"></a>
+            </div>
+            <div class="profile">
+                <a href="#"><img src="./asset/profile.png" alt="" loading="lazy"></a>
+            </div>
+        </div>
+    </header>
+    <div class="video_container">
+        <div class="video_content">
+            <div class="content_left">
+                <video class="video" controls autoplay>
+                    <source src="./asset2/coverr-a-guy-dancing-in-a-field-of-grass-2852-1080p.mp4">
+                </video>
+            </div>
+            <div class="content_right"></div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
